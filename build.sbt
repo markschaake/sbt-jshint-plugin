@@ -10,9 +10,9 @@ scalaVersion := "2.10.3"
 
 resolvers ++= Seq(
     "Typesafe Releases Repository" at "http://repo.typesafe.com/typesafe/releases/",
-    Resolver.url("sbt snapshot plugins", url("http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots"))(Resolver.ivyStylePatterns),
-    Resolver.sonatypeRepo("snapshots"),
-    "Typesafe Snapshots Repository" at "http://repo.typesafe.com/typesafe/snapshots/",
+    //Resolver.url("sbt snapshot plugins", url("http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots"))(Resolver.ivyStylePatterns),
+    //Resolver.sonatypeRepo("snapshots"),
+    //"Typesafe Snapshots Repository" at "http://repo.typesafe.com/typesafe/snapshots/",
     Resolver.mavenLocal
     )
 
